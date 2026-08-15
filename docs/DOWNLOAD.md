@@ -15,6 +15,7 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KID/rel
 | Need | Action |
 |---|---|
 | Repair / reinstall | Run **KID-Setup.exe** again |
+| Upgrade | Run a newer **KID-Setup.exe** — same install replaces files in place (no uninstall) |
 | Uninstall | **Settings → Apps → KID → Uninstall**, or the uninstaller under the install folder |
 | Default location | `%LOCALAPPDATA%\Programs\KID\` |
 
