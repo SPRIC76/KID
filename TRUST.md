@@ -9,7 +9,7 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 | Stay awake | Standard execution-state request (same class of API as classic “caffeine” tools) |
 | Daylight / Night without lock fog | Temporary power/lock timeout adjustments, restored on Off |
 | Hotkeys | Registered chords only — Windows reports that a shortcut fired, not what you typed |
-| Night workspace | Minimizes open windows; restores them when you leave Night |
+| Night workspace | Minimizes open windows and hides the taskbar; restores both when you leave Night |
 | Night darkness | Monitor brightness when available, plus a full-screen black layer |
 | Wake from Night | Idle timestamp check only — not key identity or typed content |
 | Single instance | Named mutex |

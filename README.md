@@ -83,6 +83,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Compact control bar and system tray  
 - Hotkeys (defaults): **Ctrl+Shift+D** Daylight ↔ Off · **Ctrl+Shift+K** Night ↔ Off  
 - Single instance — a second launch focuses the running copy  
+- Tray option **Ghost bar** — 59% transparent, click-through (hotkeys / tray only)  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
 

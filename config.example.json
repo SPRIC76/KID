@@ -3,5 +3,6 @@
   "force_overlay": false,
   "bar_topmost": true,
   "bar_visible": true,
+  "bar_ghost": false,
   "hotkey_chord": "ctrl+shift"
 }
