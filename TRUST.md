@@ -33,4 +33,6 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 
 New publishers and unsigned binaries often trigger a one-time reputation scan from antivirus or SmartScreen. That is expected for a fresh release; it is not evidence of malice. Compare hashes from the official release page.
 
+**Smart App Control / Application Control (error 4551):** Windows may refuse to launch unsigned `KID.exe` entirely. That is a publisher-trust policy, not network malware detection. See [docs/DOWNLOAD.md](docs/DOWNLOAD.md) (section on Smart App Control). Interim: run `python -m kid` from the project while developing, or obtain Authenticode signing for release builds.
+
 If a vendor flags a release incorrectly, submit their false-positive form with the release asset and hash, and/or check [VirusTotal](https://www.virustotal.com/) against the published digests.

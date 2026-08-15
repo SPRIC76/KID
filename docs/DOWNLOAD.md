@@ -17,7 +17,9 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KID/rel
 | Repair / reinstall | Run **KID-Setup.exe** again |
 | Upgrade | Run a newer **KID-Setup.exe** — same install replaces files in place (no uninstall) |
 | Uninstall | **Settings → Apps → KID → Uninstall**, or the uninstaller under the install folder |
-| Default location | `%LOCALAPPDATA%\Programs\KID\` |
+| Default location | `%LOCALAPPDATA%\Programs\KID\` (no Admin; correct for Setup) |
+
+**Note:** Install *folder* does not defeat Smart App Control. Unsigned `KID.exe` can be blocked in any path. On a blocked PC with Python, use the repo’s `install_local.ps1` / `run_kid.cmd` (runs under signed `pythonw`). On PCs where 1.0.17 already runs, keep using Setup / Start Menu as usual.
 
 ---
 
@@ -96,3 +98,26 @@ certutil -hashfile KID.exe SHA256
 ```
 
 Trust and behavior notes: [TRUST.md](../TRUST.md).
+
+---
+
+## Windows blocks KID.exe (Smart App Control / error 4551)
+
+Unsigned builds can be blocked with:
+
+> Unable to execute file … CreateProcess failed; code 4551.  
+> An Application Control policy has blocked this file.
+
+Or: “Part of this app has been blocked … we can't confirm who published **KID.exe**.”
+
+**This is Windows Application Control / Smart App Control**, not a bad install.
+
+| Path | What to do |
+|---|---|
+| Check the policy | **Windows Security → App & browser control → Smart App Control** |
+| Evaluation vs On | Evaluation warns; **On** hard-blocks unsigned apps. Turning **On** off may require resetting the feature (Microsoft’s rules). |
+| Develop / use now | From the KiD project folder: `python -m kid` (runs under your signed Python) |
+| Verify the file | Compare SHA-256 to the [release](https://github.com/SPRIC76/KID/releases/latest) digests before trusting any unblock |
+| Lasting product fix | Authenticode **code signing** so Smart App Control can verify the publisher |
+
+Do not disable core Windows security casually. Prefer signing when you want Setup/Start Menu launches to just work on locked-down PCs.
