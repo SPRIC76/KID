@@ -80,7 +80,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 
 ## Use
 
-- Compact control bar docked in the band just above the taskbar (scales with the work area)  
+- Compact control bar pinned just above the taskbar (work-area aware)  
 - Hotkeys (defaults): **Ctrl+Shift+D** Daylight ↔ Off · **Ctrl+Shift+K** Night ↔ Off  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 59% transparent, click-through (hotkeys / tray only)  
