@@ -1,10 +1,10 @@
 {
-    "version":  "1.0.12",
+    "version":  "1.0.13",
     "description":  "KID - Keep it Daylight. One exe: stay awake, wakeable dark Night, Off.",
     "homepage":  "https://github.com/SPRIC76/KID",
     "license":  "MIT",
-    "url":  "https://github.com/SPRIC76/KID/releases/download/v1.0.12/KID-Setup.exe",
-    "hash":  "9e34d4ac24d15760a5958f5e85e316ba7eb6196d2616332186a371accfb335c3",
+    "url":  "https://github.com/SPRIC76/KID/releases/download/v1.0.13/KID-Setup.exe",
+    "hash":  "a1fafefc8685bcc14da3c0c89debad336f3a162c4d1b0ae2881387a7c8611026",
     "innosetup":  true,
     "bin":  [
                 [
