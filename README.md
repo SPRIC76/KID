@@ -81,17 +81,21 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 ## Use
 
 - Low-profile control bar pinned just above the taskbar (equal pad to the taskbar edge)  
-- Hotkeys (defaults): **Ctrl+Shift+D** Daylight ↔ Off · **Ctrl+Shift+K** Night ↔ Off  
+- Hotkeys (defaults): **Ctrl+Shift+D** Daylight · **Ctrl+Shift+K** Night (Night again or **Esc** → Daylight)  
+  - Hold either chord **2 seconds** → Off  
+  - Triple-tap either chord → flip Daylight ↔ Night  
 - Single instance — a second launch focuses the running copy  
-- Tray option **Ghost bar** — 59% transparent, click-through (hotkeys / tray only)  
-- Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D**)  
+- Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
+- Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
+  - Globules: fast KiD seed → four ricochets populate KiD/Daylight/Night/Off → normal play + center gravity well  
+- Tray **Check for updates…** — opt-in; fetches the latest public release and runs silent Setup (SHA-256 checked when published)  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
 
 ## Trust
 
-Runs entirely on your machine. KID does not log keystrokes, spoof mouse or keyboard input, store credentials, or contact the network.
+Runs on your machine. No keystroke logging, no input spoofing, no credentials. **No network** unless you use tray **Check for updates…** (GitHub Releases only).
 
 Release assets include SHA-256 digests. Details: [TRUST.md](TRUST.md).
 

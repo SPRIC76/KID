@@ -8,12 +8,13 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 |---|---|
 | Stay awake | Standard execution-state request (same class of API as classic “caffeine” tools) |
 | Daylight / Night without lock fog | Temporary power/lock timeout adjustments, restored on Off |
-| Hotkeys | Registered chords only — Windows reports that a shortcut fired, not what you typed |
+| Hotkeys | Registered chords only — Windows reports that a shortcut fired, not what you typed. Short tap / 2s hold → Off / triple-flip are timed from those notifications (auto-repeat), never from key content |
 | Night workspace | Minimizes open windows and hides the taskbar; restores both when you leave Night |
 | Night darkness | Monitor brightness when available, plus a full-screen black layer |
-| Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on) |
-| Hold Night | Optional: leave Night only via hotkeys; ignores mouse/idle wake and tray/saver mode picks |
+| Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on). Escape leaves Night by presence check / surface bind — same class as hotkeys, not a keylogger |
+| Hold Night | Optional: leave Night only via hotkeys (incl. Escape); ignores mouse/idle wake and tray/saver mode picks |
 | Control bar / screensaver | Bar hides during Night; optional in-app saver runs only during Night |
+| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KID-Setup.exe` (+ SHA-256 when present), runs a silent in-place upgrade |
 | Single instance | Named mutex |
 
 ## What it never does
@@ -21,8 +22,8 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 - Record or inspect keystrokes or clipboard contents  
 - Synthesize mouse or keyboard input  
 - Store, transmit, or type credentials  
-- Open network connections, phone home, or collect telemetry  
-- Require administrator rights for ordinary use  
+- Phone home, collect telemetry, or open the network **except** the opt-in tray **Check for updates…** path above  
+- Require administrator rights for ordinary use (updates install under your user profile)  
 
 ## How to verify
 
