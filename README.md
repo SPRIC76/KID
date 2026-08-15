@@ -84,6 +84,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Hotkeys (defaults): **Ctrl+Shift+D** Daylight ↔ Off · **Ctrl+Shift+K** Night ↔ Off  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 59% transparent, click-through (hotkeys / tray only)  
+- Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D**)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).

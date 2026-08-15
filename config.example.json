@@ -5,5 +5,6 @@
   "bar_visible": true,
   "bar_ghost": false,
   "screensaver_mode": "globules",
+  "night_hold": false,
   "hotkey_chord": "ctrl+shift"
 }
