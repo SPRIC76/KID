@@ -4,6 +4,6 @@
   "bar_topmost": true,
   "bar_visible": true,
   "bar_ghost": false,
-  "screensaver_mode": "off",
+  "screensaver_mode": "random",
   "hotkey_chord": "ctrl+shift"
 }

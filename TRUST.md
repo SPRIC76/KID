@@ -12,7 +12,7 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 | Night workspace | Minimizes open windows and hides the taskbar; restores both when you leave Night |
 | Night darkness | Monitor brightness when available, plus a full-screen black layer |
 | Wake from Night | Idle timestamp check only — not key identity or typed content |
-| Control bar / screensaver | Bar hides during Night; optional in-app saver runs only when not Night |
+| Control bar / screensaver | Bar hides during Night; optional in-app saver runs only during Night |
 | Single instance | Named mutex |
 
 ## What it never does
