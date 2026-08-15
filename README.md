@@ -80,10 +80,11 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 
 ## Use
 
-- Compact control bar pinned just above the taskbar (work-area aware)  
+- Low-profile control bar pinned just above the taskbar (work-area aware)  
 - Hotkeys (defaults): **Ctrl+Shift+D** Daylight ↔ Off · **Ctrl+Shift+K** Night ↔ Off  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 59% transparent, click-through (hotkeys / tray only)  
+- Tray **Screensaver** (DVD / Snake / Bubbles / Orbit) — light work-area animation when not in Night; Off restores the bar  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
 
