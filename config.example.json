@@ -1,10 +1,11 @@
 {
-  "remember_last": false,
+  "remember_last": true,
   "force_overlay": false,
   "bar_topmost": true,
   "bar_visible": true,
   "bar_ghost": false,
   "screensaver_mode": "globules",
   "night_hold": false,
+  "run_on_startup": false,
   "hotkey_chord": "ctrl+shift"
 }

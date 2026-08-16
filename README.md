@@ -8,7 +8,7 @@ A quiet Windows tray utility: keep the machine awake, darken on demand, return t
 
 | Mode | What it does |
 |---|---|
-| **Daylight** | Keeps the PC and display awake. Suppresses lock fog while active. |
+| **Light** | Keeps the PC and display awake. Suppresses lock fog while active. (Default on first run.) |
 | **Night** | Wakeable dark — the screen goes dark, open windows step aside, the machine stays awake. Activity returns you. |
 | **Off** | Restores ordinary Windows sleep and lock behavior. |
 
@@ -81,14 +81,17 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 ## Use
 
 - Low-profile control bar pinned just above the taskbar (equal pad to the taskbar edge)  
-- Hotkeys (defaults): **Ctrl+Shift+D** Daylight · **Ctrl+Shift+K** Night (Night again or **Esc** → Daylight)  
+- Hotkeys (defaults): **Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night (Night again or **Esc** → Light)  
   - Hold either chord **2 seconds** → Off  
-  - Triple-tap either chord → flip Daylight ↔ Night  
+  - Triple-tap either chord → flip Light ↔ Night  
+- Last mode and settings restore on startup (`remember_last`, default on)  
+- Tray menu shows **KiD v… · GitHub** (opens the public repo)  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
+- Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
-  - Globules: seed → roster → gravity well (stable orbits) · 7% bump pop into fading pixels  
+  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · 7% bump pop into fading pixels  
 - Tray **Check for updates…** — opt-in; fetches the latest public release and runs silent Setup (SHA-256 checked when published)  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
