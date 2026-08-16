@@ -91,7 +91,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
 - Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
-  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · 7% bump pop into fading pixels  
+  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · burn-safe animated vortex  
 - Tray **Check for updates…** — opt-in; fetches the latest public release and runs silent Setup (SHA-256 checked when published)  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
