@@ -92,7 +92,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
   - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · burn-safe animated vortex  
-- Tray **Check for updates…** — opt-in; fetches the latest public release and runs silent Setup (SHA-256 checked when published)  
+- Tray **Check for updates…** — confirms, downloads Setup to Downloads, verifies SHA-256, silent install with interactive fallback if Windows blocks it  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
 
