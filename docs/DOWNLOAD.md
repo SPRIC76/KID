@@ -15,7 +15,7 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KID/rel
 | Need | Action |
 |---|---|
 | Repair / reinstall | Run **KID-Setup.exe** again |
-| Upgrade | Run a newer **KID-Setup.exe** — same install replaces files in place (no uninstall) |
+| Upgrade | Tray **Check for updates…** (downloads `KID.exe`, replaces in place, Desktop shortcut, relaunch), or run a newer **KID-Setup.exe** |
 | Uninstall | **Settings → Apps → KID → Uninstall**, or the uninstaller under the install folder |
 | Default location | `%LOCALAPPDATA%\Programs\KID\` (no Admin; correct for Setup) |
 
@@ -29,6 +29,12 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KID/rel
 2. Run it from any folder you choose.
 
 No installer, no automatic Start-menu entry, no uninstaller — delete the file to remove it. Settings, if any, still use `kid.json` beside the exe or under `%LOCALAPPDATA%\KiD\`.
+
+---
+
+## Tray update (after first install)
+
+Tray **Check for updates…** downloads **`KID.exe`** (+ SHA-256), installs to `%LOCALAPPDATA%\Programs\KID\`, refreshes Desktop **KID.lnk**, and relaunches. It does **not** run Setup. Use Setup / package managers for first install, repair, and uninstall.
 
 ---
 

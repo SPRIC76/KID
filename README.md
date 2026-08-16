@@ -86,14 +86,14 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
   - Triple-tap either chord → flip Light ↔ Night  
 - Last mode and settings restore on startup (`remember_last`, default on)  
 - Tray menu shows **KiD v… · GitHub** (opens the public repo)  
-- Every collide / deflect / ricochet on primes / medium / large **always** sheds or spawns **1–3** letters (random amount)  
+- Every collide / deflect / ricochet on primes / medium / large **always** sheds or spawns **1–5** letters (random amount); new bubbles get **1s** immunity from cascade merge/ricochet  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
 - Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
   - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)  
-- Tray **Check for updates…** — confirms, downloads Setup to Downloads, verifies SHA-256, silent install with interactive fallback if Windows blocks it  
+- Tray **Check for updates…** — confirms, downloads **KID.exe** (+ SHA-256), installs under `%LOCALAPPDATA%\Programs\KID\`, puts Desktop **KID**, relaunches. Setup stays for first install / packages only.  
 
 Optional settings: `kid.json` beside the executable, or `%LOCALAPPDATA%\KiD\kid.json` ([example](config.example.json)).
 

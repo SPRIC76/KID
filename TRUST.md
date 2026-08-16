@@ -11,10 +11,10 @@ KID stays on your machine. It keeps Windows awake and can darken the display on 
 | Hotkeys | Registered chords only — Windows reports that a shortcut fired, not what you typed. Short tap / 2s hold → Off / triple-flip are timed from those notifications (auto-repeat), never from key content |
 | Night workspace | Minimizes open windows and hides the taskbar; restores both when you leave Night |
 | Night darkness | Monitor brightness when available, plus a full-screen black layer |
-| Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on). Escape leaves Night by presence check / surface bind — same class as hotkeys, not a keylogger |
+| Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on). Escape leaves Night via global key presence (`GetAsyncKeyState`) plus Night-surface bind — same class as hotkeys, not a keylogger. Bare Escape is never registered as a system hotkey (that can swallow the key). |
 | Hold Night | Optional: leave Night only via hotkeys (incl. Escape); ignores mouse/idle wake and tray/saver mode picks |
 | Control bar / screensaver | Bar hides during Night; optional in-app saver runs only during Night |
-| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KID-Setup.exe` (+ SHA-256 when present), runs a silent in-place upgrade |
+| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KID.exe` (+ SHA-256 when present), replaces the install under `%LOCALAPPDATA%\Programs\KID\`, refreshes Desktop **KID.lnk**, and relaunches. Tray never runs Setup. |
 | Single instance | Named mutex |
 
 ## What it never does
