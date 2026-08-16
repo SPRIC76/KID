@@ -15,7 +15,7 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KIT/rel
 | Need | Action |
 |---|---|
 | Repair / reinstall | Run **KIT-Setup.exe** again |
-| Upgrade | Tray **Check for updates…** (downloads `KIT.exe`, replaces in place, Desktop shortcut, relaunch), or run a newer **KIT-Setup.exe** |
+| Upgrade | Tray **Check for updates…** (replaces the running `KIT.exe` in place, Desktop shortcut, relaunch), or run a newer **KIT-Setup.exe** (closes KIT, replaces files, relaunches) |
 | Uninstall | **Settings → Apps → KIT → Uninstall**, or the uninstaller under the install folder |
 | Default location | `%LOCALAPPDATA%\Programs\KIT\` (no Admin; prior KiD installs may remain under `Programs\KID`) |
 
@@ -28,13 +28,13 @@ Prefer downloads from the official [releases](https://github.com/SPRIC76/KIT/rel
 1. Download **KIT.exe** from the same release.  
 2. Run it from any folder you choose.
 
-No installer, no automatic Start-menu entry, no uninstaller — delete the file to remove it. Settings, if any, still use `kit.json` (or legacy `kid.json`) beside the exe or under `%LOCALAPPDATA%\KiT\` (legacy `%LOCALAPPDATA%\KiD\`).
+No installer, no automatic Start-menu entry, no uninstaller — delete the file to remove it. Settings and other generated files live in `%LOCALAPPDATA%\KiT\` (legacy `%LOCALAPPDATA%\KiD\`), not beside the portable.
 
 ---
 
 ## Tray update (after first install)
 
-Tray **Check for updates…** downloads **`KIT.exe`** (+ SHA-256; falls back to `KID.exe` on older releases), installs to `%LOCALAPPDATA%\Programs\KIT\` (or the existing KiD folder), refreshes Desktop **KIT.lnk**, and relaunches. It does **not** run Setup. Use Setup / package managers for first install, repair, and uninstall.
+Tray **Check for updates…** downloads **`KIT.exe`** (+ SHA-256; falls back to `KID.exe` on older releases), **replaces the copy you are running** (a Desktop portable stays there; a Setup install stays under Programs), refreshes Desktop **KIT.lnk** to that same file, rewrites **Run at Windows sign-in** to that file when it is on, and relaunches. Staging files go in `%LOCALAPPDATA%\KiT\update\`. It does **not** run Setup. Use Setup / package managers for first install, repair, and uninstall. Setup itself closes a running KIT, replaces files, heals the Run key if autostart is on, and relaunches the new version.
 
 ---
 

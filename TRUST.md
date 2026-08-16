@@ -14,7 +14,7 @@ KIT stays on your machine. It keeps Windows awake and can darken the display on 
 | Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on). Escape leaves Night via global key presence (`GetAsyncKeyState`) plus Night-surface bind — same class as hotkeys, not a keylogger. Bare Escape is never registered as a system hotkey (that can swallow the key). |
 | Hold Night | Optional: leave Night only via hotkeys (incl. Escape); ignores mouse/idle wake and tray/saver mode picks |
 | Control bar / screensaver | Bar hides during Night; optional in-app saver runs only during Night |
-| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KIT.exe` (+ SHA-256 when present; older releases may still ship `KID.exe`), replaces the install under `%LOCALAPPDATA%\Programs\KIT\` (or an existing KiD folder), refreshes Desktop **KIT.lnk**, and relaunches. Tray never runs Setup. |
+| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KIT.exe` (+ SHA-256 when present; older releases may still ship `KID.exe`), **replaces the running file in place**, refreshes Desktop **KIT.lnk** to that same path, and relaunches. Staging files go in `%LOCALAPPDATA%\KiT\update\`. Tray never runs Setup. |
 | Single instance | Named mutex |
 
 ## What it never does

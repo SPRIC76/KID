@@ -93,12 +93,12 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
-- Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
+- Tray **Run at Windows sign-in** — optional autostart (HKCU Run). Startup Apps lists **KIT — Keep it Ticking**. Sign-in stays Light for a few seconds so Windows can measure Low impact, then restores Night if that was last mode.  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
-  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · two Offs fuse into Offer (immune except BH; herds small/medium into non-Off larges; Offer into BH shrinks the hole 0.5%) · one KiT always in play · missing word types spawn letters 30% more often · center black hole absorbs (accretion jets; growth by bubble type × size) · single-letter pop only · larges never pop (letter loss 97% resist, or sun/moon/BH) · ricochet sparks · mediums ignore letter loss 70% at 2 letters (+10%/letter, cap 95%) · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)
-- Tray **Check for updates…** — confirms, downloads **KIT.exe** (+ SHA-256), installs under `%LOCALAPPDATA%\Programs\KIT\` (or the existing KiD folder), puts Desktop **KIT**, relaunches. Setup stays for first install / packages only.  
+  - Globules: seed → roster → gravity well (distortion ring 80% transparent) · unique letter colors · Light/Night larges fuse into suns / spherical full moons · two Offs fuse into a `?` Offer (immune except BH; tows a small/medium train; train chips merge freely into tagline/UI words or any large-or-bigger type, then leave and drop train immunity; Offer into BH shrinks the hole 5% of original size) · BH consume growth from original size: small 0.1% · medium 0.4% · large 1% · sun/moon/planet 2% · two KiT: 20% Kitten / 60% solar-system body · one KiT, Light, Night, and Off always in play (restock off-screen) · missing word types spawn letters 30% more often · center black hole + well + jets scale on every consume · single-letter pop only · larges never pop (letter loss 97% resist, or sun/moon/BH) · ricochet sparks · mediums ignore letter loss 70% at 2 letters (+10%/letter, cap 95%) · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)
+- Tray **Check for updates…** — confirms, downloads **KIT.exe** (+ SHA-256), **replaces the copy you are running** (Desktop portable stays on the Desktop; Setup installs stay in Programs), refreshes Desktop **KIT** to that same file, rewrites Run-at-sign-in to that file if it was on, relaunches. Generated files live in `%LOCALAPPDATA%\KiT\`. Setup stays for first install / packages / repair.  
 
-Optional settings: `kit.json` (or legacy `kid.json`) beside the executable, or `%LOCALAPPDATA%\KiT\` ([example](config.example.json)).
+Optional settings: `kit.json` (or legacy `kid.json`) under `%LOCALAPPDATA%\KiT\` ([example](config.example.json)). A leftover file beside a portable exe is migrated there once.
 
 ## Trust
 
