@@ -69,7 +69,7 @@ scoop update kid
 When listed in the community source:
 
 ```bat
-winget install --id SPRIC76.KID -e
+winget install --id SPRIC76.KIT -e
 ```
 
 Until then, use Setup or portable from the release page.

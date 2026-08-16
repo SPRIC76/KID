@@ -48,7 +48,7 @@ One program: **`KIT.exe`**. Every path below places that same file.
 | **[Installer](https://github.com/SPRIC76/KIT/releases/latest)** | Most people — Start menu, repair, uninstall | `KIT-Setup.exe` |
 | **[Portable](https://github.com/SPRIC76/KIT/releases/latest)** | No install — run anywhere | `KIT.exe` |
 | **Scoop** | Scoop users | below |
-| **Winget** | When listed in the community source | `SPRIC76.KID` |
+| **Winget** | When listed in the community source | `SPRIC76.KIT` |
 
 **Installer:** download Setup → Next → Finish → open **KIT** from Start.  
 **Portable:** download `KIT.exe` → double-click.
