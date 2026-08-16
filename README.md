@@ -83,6 +83,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 ## Use
 
 - Low-profile control bar pinned just above the taskbar (equal pad to the taskbar edge)  
+- **Double-click** the tray icon to show or hide the control bar (same as tray **Show/Hide control bar**)  
 - Hover the **KiT** mark for **Keep it Ticking**  
 - Hotkeys (defaults): **Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night (Night again or **Esc** → Light)  
   - Hold either chord **2 seconds** → Off  
