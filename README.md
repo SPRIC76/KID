@@ -89,13 +89,13 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
   - Triple-tap either chord → flip Light ↔ Night  
 - Last mode and settings restore on startup (`remember_last`, default on)  
 - Tray menu shows **KiT v… · GitHub** (opens the public repo)  
-- Every collide / deflect / ricochet on primes / medium / large **always** sheds or spawns **1–5** letters (random amount); new bubbles get **1s** immunity from cascade merge/ricochet  
+- Every collide / deflect / ricochet on primes / medium / large **always** spawns **1–5** letter chips (random amount); new bubbles get **1s** immunity from cascade merge/ricochet  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
 - Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
-  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · mediums ignore letter loss 70% at 2 letters (+10%/letter, cap 95%) · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)  
+  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets; growth by bubble type × size) · single-letter pop only · larges never pop (letter loss 97% resist, or sun/moon/BH) · ricochet sparks · mediums ignore letter loss 70% at 2 letters (+10%/letter, cap 95%) · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)
 - Tray **Check for updates…** — confirms, downloads **KIT.exe** (+ SHA-256), installs under `%LOCALAPPDATA%\Programs\KIT\` (or the existing KiD folder), puts Desktop **KIT**, relaunches. Setup stays for first install / packages only.  
 
 Optional settings: `kit.json` (or legacy `kid.json`) beside the executable, or `%LOCALAPPDATA%\KiT\` ([example](config.example.json)).
