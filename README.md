@@ -95,7 +95,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
 - Tray **Run at Windows sign-in** — optional autostart (HKCU Run)  
 - Tray **Screensaver (Night)** — Off / Random / DVD / Snake / Globules / Orbit; runs only in Night (default Globules)  
-  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)  
+  - Globules: seed → roster → gravity well · unique letter colors · Light/Night larges fuse into suns/moons · center black hole absorbs (accretion jets) · single-letter pop only · ricochet sparks · mediums ignore letter loss 70% at 2 letters (+10%/letter, cap 95%) · burn-safe animated vortex · hard small/medium caps (no frozen merge orphans)  
 - Tray **Check for updates…** — confirms, downloads **KIT.exe** (+ SHA-256), installs under `%LOCALAPPDATA%\Programs\KIT\` (or the existing KiD folder), puts Desktop **KIT**, relaunches. Setup stays for first install / packages only.  
 
 Optional settings: `kit.json` (or legacy `kid.json`) beside the executable, or `%LOCALAPPDATA%\KiT\` ([example](config.example.json)).
