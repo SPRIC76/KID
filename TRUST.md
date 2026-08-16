@@ -1,37 +1,32 @@
 # Trust
 
-KIT is a local Windows utility. It keeps the machine awake when you ask, can darken the room without putting the PC to sleep, and otherwise stays out of the way. This page is the honest account of what it does — and what it refuses to do.
+KiT is a local Windows companion. It keeps the machine awake when you ask, can darken the room without putting the PC to sleep, and otherwise stays out of the way. This is the honest account of what it does — and what it refuses to do.
 
-## Design posture
+## Posture
 
-Quiet. Efficient. Under your control. No account. No dashboard in the cloud. No “engagement.” The product earns trust by staying small and saying no to the usual surveillance habits of desktop tools.
+Quiet. Efficient. Under your control. No account. No cloud dashboard. No “engagement.” Trust is earned by staying small and saying no.
 
 ## What it does
 
-- Holds the session awake in **Light** and **Night**  
-- Softens lock interruptions while those modes are active  
-- Offers global hotkeys for Light, Night, Off, and flip — chords only, never a record of what you type  
-- In **Night**, clears the desk and darkens the display; activity (or Escape) can return you — unless you choose **Hold Night**  
-- Draws its own Night faces and control bar locally  
-- Checks for updates **only** when you choose tray **Check for updates…**  
-- Runs as a single instance  
+- Holds the session awake in **Light** and **Night**
+- In **Night**, clears the desk and darkens the display; a touch of activity — or Escape — can return you, unless you choose **Hold Night**
+- Offers global hotkeys for Light, Night, Off, and flip — chords only, never a record of what you type
+- Draws its Night faces and control bar locally
+- Checks for updates only when you choose **Check for updates…**
+- Runs as a single instance
 
 ## What it never does
 
-- Record keystrokes or clipboard  
-- Fake mouse or keyboard input  
-- Store, send, or type credentials  
-- Call home, collect telemetry, or open the network except that opt-in update path  
-- Demand administrator rights for ordinary use  
+- Record keystrokes or clipboard
+- Fake mouse or keyboard input
+- Store, send, or type credentials
+- Call home, collect telemetry, or open the network except that opt-in update path
+- Demand administrator rights for ordinary use
 
-## How to verify
+## Official source
 
-- Prefer downloads from the official [latest release](https://github.com/SPRIC76/KIT/releases/latest) — both [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) and [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) live there  
-- Each release includes matching digests beside the binaries  
-- The executable carries ordinary product identity (name, version, publisher)  
+Prefer the [latest release](https://github.com/SPRIC76/KIT/releases/latest). Both launches live there: [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) and [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest). Each release carries matching digests beside the files. The program carries ordinary product identity — name, version, publisher.
 
-New publishers and unsigned builds often get a one-time reputation look from Windows or antivirus. That is normal for a fresh release — not proof of malice. Compare hashes from the [latest release](https://github.com/SPRIC76/KIT/releases/latest) before you decide.
+Windows may look once at a new publisher. That is ordinary, not a verdict. If a locked-down PC refuses to run it, that is publisher policy, not a corrupt file — see [Download](docs/DOWNLOAD.md).
 
-On locked-down PCs, **Smart App Control** may refuse unsigned apps outright. That is publisher policy, not a corrupt file. See [Download & install](docs/DOWNLOAD.md). Signing is the lasting product answer when it becomes practical.
-
-If a vendor flags a release incorrectly, use their false-positive path with the official asset and digest, or check [VirusTotal](https://www.virustotal.com/) against the published hashes.
+[MIT](LICENSE) · MK Shepherd

@@ -1,6 +1,6 @@
 {
     "version":  "1.0.34",
-    "description":  "KIT - Keep it Ticking. One exe: stay awake, wakeable dark Night, Off.",
+    "description":  "KiT — Keep it Ticking. Stay awake, wakeable dark, entirely local.",
     "homepage":  "https://github.com/SPRIC76/KIT",
     "license":  "MIT",
     "url":  "https://github.com/SPRIC76/KIT/releases/download/v1.0.34/KIT-Setup.exe",
@@ -8,20 +8,20 @@
     "innosetup":  true,
     "bin":  [
                 [
-                    "KID.exe",
-                    "KID"
+                    "KIT.exe",
+                    "KIT"
                 ]
             ],
     "shortcuts":  [
                       [
-                          "KID.exe",
-                          "KID"
+                          "KIT.exe",
+                          "KIT"
                       ]
                   ],
     "checkver":  {
                      "github":  "https://github.com/SPRIC76/KIT"
                  },
     "autoupdate":  {
-                       "url":  "https://github.com/SPRIC76/KIT/releases/download/v$version/KID-Setup.exe"
+                       "url":  "https://github.com/SPRIC76/KIT/releases/download/v$version/KIT-Setup.exe"
                    }
 }

@@ -2,78 +2,61 @@
 
 **Keep it Ticking** · *Daylight for dark mode*
 
-A quiet companion for Windows: stay awake when you need the machine, darken when you want the room calm, return to ordinary sleep when you are done. One program. Entirely local. No accounts, no telemetry, no theater.
+A quiet companion for Windows. Stay awake when you need the machine. Darken the room without putting the PC to sleep. Return to ordinary Windows when you are done.
+
+One program. Entirely local. No accounts. No telemetry. No theater.
 
 ---
 
-## Modes
+## Three modes
 
 | | |
 |---|---|
 | **Light** | The PC and display stay awake. Quiet and ready. |
-| **Night** | Wakeable dark — the screen goes deep, the desk clears, the machine keeps working. A touch of activity brings you back. |
+| **Night** | Wakeable dark — deep screen, clear desk, the machine still working. A touch of activity brings you back. |
 | **Off** | Ordinary Windows again. |
 
-Three states. One gesture each. No schedules. No idle games.
+One gesture each. No schedules. No idle games.
 
 ---
 
-## At a glance
+## The instrument
 
-- A low-profile control bar, docked just above the taskbar — present when you want it, gone when you don’t  
-- **Double-click** the tray icon to show or hide the bar  
-- Hover the **KiT** mark for *Keep it Ticking*  
-- Hotkeys: **Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night · hold either to Off · triple-tap to flip  
-- **Esc** leaves Night  
-- Remembers how you left it  
-- Optional **Ghost** bar — soft transparency, click-through  
-- Optional **Hold Night** — stay dark until you say otherwise  
-- Optional run at sign-in  
-- Night-only faces: Globules, DVD, Snake, Orbit — or quiet Off  
-- One instance; a second launch simply finds the first  
-- Tray **Check for updates…** when you choose — never phones home on its own  
+A low-profile bar sits just above the taskbar — there when you want it, gone when you don’t. Double-click the tray icon to show or hide it. Hover **KiT** for *Keep it Ticking*.
+
+**Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night · hold either for Off · triple-tap to flip. **Esc** leaves Night.
+
+Optional **Ghost** — transparent, click-through. Optional **Hold Night** — stay dark until you say otherwise. Optional run at sign-in. Remembers how you left it.
+
+Night faces: **Globules**, DVD, Snake, Orbit — or quiet Off. Burn-safe motion. Built to feel alive, not busy.
 
 ### Globules
 
-A small solar system for Night: letter worlds, gravity, suns and moons, the occasional kitten or planet, a black hole that grows as it feeds. Burn-safe motion. Built to feel alive, not busy.
+A small solar system for Night: letter worlds, gravity, suns and moons, the occasional kitten or planet, a black hole that grows as it feeds.
 
 ---
 
-## Install
+## Get KiT
 
-One program: **[`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest)**. Both launches are on the same page — [latest release](https://github.com/SPRIC76/KIT/releases/latest).
+Both launches live on the [latest release](https://github.com/SPRIC76/KIT/releases/latest).
 
-| | Best for | File |
+| | | |
 |---|---|---|
-| **Installer** | Most people — Start menu, repair, uninstall | [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
-| **Portable** | No install — run anywhere | [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
-| **Scoop** | Scoop users | below |
-| **Winget** | When listed in the community source | `SPRIC76.KIT` |
+| **Installer** | Start menu, repair, uninstall | [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
+| **Portable** | No install — run from any folder | [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
 
-**Installer:** download [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) → Next → Finish → open **KIT** from Start.  
-**Portable:** download [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) → double-click.
+Installer: download [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) → Next → Finish → open **KIT** from Start.  
+Portable: download [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) → double-click.
 
 ```bat
 scoop bucket add kid https://github.com/SPRIC76/KIT
 scoop install kid
 ```
 
-Silent Setup and verification: [Download & install](docs/DOWNLOAD.md).
+More paths: [Download](docs/DOWNLOAD.md). How it earns trust: [Trust](TRUST.md).
 
 ---
 
-## Trust
-
-Runs on your machine. No keylogging. No fake input. No credentials. Network only if you ask it to check for an update.
-
-Release assets ship with digests. Full notes: [TRUST.md](TRUST.md).
-
----
-
-## Requirements
-
-Windows 10 or 11. Nothing else to install for the release build.
-
-## License
+Windows 10 or 11. Nothing else to install.
 
 [MIT](LICENSE) · MK Shepherd
