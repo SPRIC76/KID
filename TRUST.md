@@ -1,38 +1,37 @@
 # Trust
 
-KIT stays on your machine. It keeps Windows awake and can darken the display on demand. This page states what the shipped app does — and what it never does — so you can judge it plainly.
+KIT is a local Windows utility. It keeps the machine awake when you ask, can darken the room without putting the PC to sleep, and otherwise stays out of the way. This page is the honest account of what it does — and what it refuses to do.
 
-## What it asks of Windows
+## Design posture
 
-| Capability | Mechanism (summary) |
-|---|---|
-| Stay awake | Standard execution-state request (same class of API as classic “caffeine” tools) |
-| Daylight / Night without lock fog | Temporary power/lock timeout adjustments, restored on Off |
-| Hotkeys | Registered chords only — Windows reports that a shortcut fired, not what you typed. Short tap / 2s hold → Off / triple-flip are timed from those notifications (auto-repeat), never from key content |
-| Night workspace | Minimizes open windows and hides the taskbar; restores both when you leave Night |
-| Night darkness | Monitor brightness when available, plus a full-screen black layer |
-| Wake from Night | Idle timestamp check only — not key identity or typed content (disabled when Hold Night is on). Escape leaves Night via global key presence (`GetAsyncKeyState`) plus Night-surface bind — same class as hotkeys, not a keylogger. Bare Escape is never registered as a system hotkey (that can swallow the key). |
-| Hold Night | Optional: leave Night only via hotkeys (incl. Escape); ignores mouse/idle wake and tray/saver mode picks |
-| Control bar / screensaver | Bar hides during Night; optional in-app saver runs only during Night |
-| Check for updates (tray) | **Only when you choose it** — reads the public GitHub latest release, downloads `KIT.exe` (+ SHA-256 when present; older releases may still ship `KID.exe`), **replaces the running file in place**, refreshes Desktop **KIT.lnk** to that same path, and relaunches. Staging files go in `%LOCALAPPDATA%\KiT\update\`. Tray never runs Setup. |
-| Single instance | Named mutex |
+Quiet. Efficient. Under your control. No account. No dashboard in the cloud. No “engagement.” The product earns trust by staying small and saying no to the usual surveillance habits of desktop tools.
+
+## What it does
+
+- Holds the session awake in **Light** and **Night**  
+- Softens lock interruptions while those modes are active  
+- Offers global hotkeys for Light, Night, Off, and flip — chords only, never a record of what you type  
+- In **Night**, clears the desk and darkens the display; activity (or Escape) can return you — unless you choose **Hold Night**  
+- Draws its own Night faces and control bar locally  
+- Checks for updates **only** when you choose tray **Check for updates…**  
+- Runs as a single instance  
 
 ## What it never does
 
-- Record or inspect keystrokes or clipboard contents  
-- Synthesize mouse or keyboard input  
-- Store, transmit, or type credentials  
-- Phone home, collect telemetry, or open the network **except** the opt-in tray **Check for updates…** path above  
-- Require administrator rights for ordinary use (updates install under your user profile)  
+- Record keystrokes or clipboard  
+- Fake mouse or keyboard input  
+- Store, send, or type credentials  
+- Call home, collect telemetry, or open the network except that opt-in update path  
+- Demand administrator rights for ordinary use  
 
 ## How to verify
 
-- Each [release](https://github.com/SPRIC76/KIT/releases) publishes `KIT.exe`, `KIT-Setup.exe`, and matching SHA-256 digests  
-- Prefer downloads from that release page only  
-- The executable carries ordinary product metadata (name, version, copyright)  
+- Prefer downloads from the official [releases](https://github.com/SPRIC76/KIT/releases) page  
+- Each release includes matching digests beside the binaries  
+- The executable carries ordinary product identity (name, version, publisher)  
 
-New publishers and unsigned binaries often trigger a one-time reputation scan from antivirus or SmartScreen. That is expected for a fresh release; it is not evidence of malice. Compare hashes from the official release page.
+New publishers and unsigned builds often get a one-time reputation look from Windows or antivirus. That is normal for a fresh release — not proof of malice. Compare hashes from the release page before you decide.
 
-**Smart App Control / Application Control (error 4551):** Windows may refuse to launch unsigned `KIT.exe` entirely. That is a publisher-trust policy, not network malware detection. See [docs/DOWNLOAD.md](docs/DOWNLOAD.md) (section on Smart App Control). Interim: run `python -m kid` from the project while developing, or obtain Authenticode signing for release builds.
+On locked-down PCs, **Smart App Control** may refuse unsigned apps outright. That is publisher policy, not a corrupt file. See [Download & install](docs/DOWNLOAD.md). Signing is the lasting product answer when it becomes practical.
 
-If a vendor flags a release incorrectly, submit their false-positive form with the release asset and hash, and/or check [VirusTotal](https://www.virustotal.com/) against the published digests.
+If a vendor flags a release incorrectly, use their false-positive path with the official asset and digest, or check [VirusTotal](https://www.virustotal.com/) against the published hashes.
