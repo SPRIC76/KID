@@ -41,17 +41,17 @@ A small solar system for Night: letter worlds, gravity, suns and moons, the occa
 
 ## Install
 
-One program: **`KIT.exe`**. Every path below places that same file.
+One program: **[`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest)**. Both launches are on the same page — [latest release](https://github.com/SPRIC76/KIT/releases/latest).
 
-| | Best for | |
+| | Best for | File |
 |---|---|---|
-| **[Installer](https://github.com/SPRIC76/KIT/releases/latest)** | Most people — Start menu, repair, uninstall | `KIT-Setup.exe` |
-| **[Portable](https://github.com/SPRIC76/KIT/releases/latest)** | No install — run anywhere | `KIT.exe` |
+| **Installer** | Most people — Start menu, repair, uninstall | [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
+| **Portable** | No install — run anywhere | [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) |
 | **Scoop** | Scoop users | below |
 | **Winget** | When listed in the community source | `SPRIC76.KIT` |
 
-**Installer:** download Setup → Next → Finish → open **KIT** from Start.  
-**Portable:** download `KIT.exe` → double-click.
+**Installer:** download [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) → Next → Finish → open **KIT** from Start.  
+**Portable:** download [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) → double-click.
 
 ```bat
 scoop bucket add kid https://github.com/SPRIC76/KIT

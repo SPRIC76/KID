@@ -26,11 +26,11 @@ Quiet. Efficient. Under your control. No account. No dashboard in the cloud. No 
 
 ## How to verify
 
-- Prefer downloads from the official [releases](https://github.com/SPRIC76/KIT/releases) page  
+- Prefer downloads from the official [latest release](https://github.com/SPRIC76/KIT/releases/latest) — both [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) and [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest) live there  
 - Each release includes matching digests beside the binaries  
 - The executable carries ordinary product identity (name, version, publisher)  
 
-New publishers and unsigned builds often get a one-time reputation look from Windows or antivirus. That is normal for a fresh release — not proof of malice. Compare hashes from the release page before you decide.
+New publishers and unsigned builds often get a one-time reputation look from Windows or antivirus. That is normal for a fresh release — not proof of malice. Compare hashes from the [latest release](https://github.com/SPRIC76/KIT/releases/latest) before you decide.
 
 On locked-down PCs, **Smart App Control** may refuse unsigned apps outright. That is publisher policy, not a corrupt file. See [Download & install](docs/DOWNLOAD.md). Signing is the lasting product answer when it becomes practical.
 
