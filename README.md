@@ -86,6 +86,7 @@ Full install reference: [docs/DOWNLOAD.md](docs/DOWNLOAD.md).
   - Triple-tap either chord → flip Light ↔ Night  
 - Last mode and settings restore on startup (`remember_last`, default on)  
 - Tray menu shows **KiD v… · GitHub** (opens the public repo)  
+- Every collide / deflect / ricochet on primes / medium / large **always** sheds or spawns **1–3** letters (random amount)  
 - Single instance — a second launch focuses the running copy  
 - Tray option **Ghost bar** — 63% transparent, click-through (hotkeys / tray only)  
 - Tray **Hold Night** — mouse/idle/saver motion do not wake; leave Night only with hotkeys (**Ctrl+Shift+K** / **D** / **Esc**)  
