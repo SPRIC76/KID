@@ -4,7 +4,7 @@
 
 A quiet companion for Windows. Stay awake when you need the machine. Darken the room without putting the PC to sleep. Return to ordinary Windows when you are done.
 
-One program. Entirely local. No accounts. No telemetry. No theater.
+One program. Entirely local. No accounts. No telemetry. No theater (except the screensavers).
 
 ---
 
