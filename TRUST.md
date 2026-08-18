@@ -25,7 +25,7 @@ Quiet. Efficient. Under your control. No account. No cloud dashboard. No “enga
 
 ## Official source
 
-Prefer the [latest release](https://github.com/SPRIC76/KIT/releases/latest). Both launches live there: [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) and [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest). Each release carries matching digests beside the files. The program carries ordinary product identity — name, version, publisher.
+Prefer the [latest release](https://github.com/SPRIC76/KIT/releases/latest). Both launches live there: [`KIT-Setup.exe`](https://github.com/SPRIC76/KIT/releases/latest) and [`KIT.exe`](https://github.com/SPRIC76/KIT/releases/latest). Each file has a matching SHA-256 digest on the release page. The program carries ordinary product identity — name, version, publisher.
 
 Windows may look once at a new publisher. That is ordinary, not a verdict. If a locked-down PC refuses to run it, that is publisher policy, not a corrupt file — see [Download](docs/DOWNLOAD.md).
 

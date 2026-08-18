@@ -27,6 +27,6 @@ scoop update kid
 winget install --id SPRIC76.KIT -e
 ```
 
-Or take either launch from the [latest release](https://github.com/SPRIC76/KIT/releases/latest).
+Or take either launch from the [latest release](https://github.com/SPRIC76/KIT/releases/latest). Digests (SHA-256) sit beside the files.
 
 How it earns trust: [Trust](../TRUST.md).
