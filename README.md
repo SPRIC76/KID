@@ -1,10 +1,10 @@
 # KiT
 
-**Keep it Ticking** · *No naps burning daylight, on-demand PC dark mode that keeps your apps ticking*
+**Keep it Ticking** · *Daylight for dark mode*
 
 A quiet companion for Windows. Stay awake when you need the machine. Darken the room without putting the PC to sleep. Return to ordinary Windows when you are done.
 
-One program. Entirely local. No accounts. No telemetry. No theater (except the screensavers).
+One program. Entirely local. No accounts. No telemetry. No theater.
 
 ---
 
@@ -32,7 +32,8 @@ Night faces: **Globules**, DVD, Snake, Orbit — or quiet Off. Burn-safe motion.
 
 ### Globules
 
-Night’s living screensaver. 
+Night’s living field. Letters gather into words. Offer trains collect, and nearby trains share what they hold. A well at the center pulls; polar jets fire when something crosses the horizon. Entirely on this machine.
+
 ---
 
 ## Get KiT
