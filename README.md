@@ -32,8 +32,7 @@ Night faces: **Globules**, DVD, Snake, Orbit — or quiet Off. Burn-safe motion.
 
 ### Globules
 
-Night’s living field. Letters gather into words. Offer trains collect, and nearby trains share what they hold. A well at the center pulls; polar jets fire when something crosses the horizon. Entirely on this machine.
-
+Night’s living screensaver. 
 ---
 
 ## Get KiT
