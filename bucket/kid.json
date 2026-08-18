@@ -1,10 +1,10 @@
 {
-    "version":  "1.0.36",
+    "version":  "1.0.37",
     "description":  "KiT - Keep it Ticking. Stay awake, wakeable dark, entirely local.",
     "homepage":  "https://github.com/SPRIC76/KIT",
     "license":  "MIT",
-    "url":  "https://github.com/SPRIC76/KIT/releases/download/v1.0.36/KIT-Setup.exe",
-    "hash":  "95bbb6837031443f74e7ab4781e076d893fe9584d080dc54ae199a5f2c057450",
+    "url":  "https://github.com/SPRIC76/KIT/releases/download/v1.0.37/KIT-Setup.exe",
+    "hash":  "c83c0a5fb6d78fd8afa5cd6e1acdb4de1b0972bd07d7c5066e0193ecb6ba5ecc",
     "innosetup":  true,
     "bin":  [
                 [
@@ -22,6 +22,6 @@
                      "github":  "https://github.com/SPRIC76/KIT"
                  },
     "autoupdate":  {
-                       "url":  "https://github.com/SPRIC76/KIT/releases/download/v1.0.36/KIT-Setup.exe"
+                       "url":  "https://github.com/SPRIC76/KIT/releases/download/v1.0.37/KIT-Setup.exe"
                    }
 }
