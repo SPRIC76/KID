@@ -1,6 +1,6 @@
 # KiT
 
-**Keep it Ticking** · *No naps in daylight, on-demand PC dark mode that keeps your apps ticking*
+**Keep it Ticking** · *No naps burning daylight, on-demand PC dark mode that keeps your apps ticking*
 
 A quiet companion for Windows. Stay awake when you need the machine. Darken the room without putting the PC to sleep. Return to ordinary Windows when you are done.
 
