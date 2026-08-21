@@ -22,11 +22,11 @@ One gesture each. No schedules. No idle games.
 
 ## The instrument
 
-A low-profile bar sits just above the taskbar — there when you want it, gone when you don’t. Double-click the tray icon to show or hide it. Hover **KiT** for *Keep it Ticking*.
+A low-profile bar sits just above the taskbar — there when you want it, gone when you don’t. Double-click the tray icon to show or hide it. Hover **KiT** for *Keep it Ticking*. Right-click the tray for modes, Ghost, Hold Night, **Auto after idle**, and the Night face.
 
-**Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night · hold either for Off · triple-tap to flip. **Esc** leaves Night.
+**Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night · hold either for Off · triple-tap to flip. **Esc** or **Space** leaves Night.
 
-Optional **Ghost** — transparent, click-through. Optional **Hold Night** — stay dark until you say otherwise. Optional run at sign-in. Remembers how you left it.
+Optional **Ghost** — transparent, click-through. Optional **Hold Night** — stay dark until you say otherwise. Optional **Auto after idle** — enter Light or Night after 1–30 quiet minutes. Optional run at sign-in. Remembers how you left it.
 
 Night faces: **Globules**, DVD, Snake, Orbit — or quiet Off. Burn-safe motion. Built to feel alive, not busy.
 
