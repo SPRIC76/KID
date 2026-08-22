@@ -2,7 +2,9 @@
 
 **Keep it Ticking** · *No naps burning daylight, on-demand PC dark mode that keeps your apps ticking*
 
- KiT is a quiet Windows companion that keeps your session awake (Light) or darkens the desktop without sleeping the PC (Night, with wakeable screensaver faces. Off returns ordinary Windows. Single instance, MIT, public source. No telemetry, no account, no cloud, no keystroke recording, no clipboard access, no fake input. SHA-256-verified releases on GitHub. Two launches: installer (current-user scope) and portable (no admin needed). Winget path is in motion.
+ KiT is a quiet Windows companion that keeps your session awake (Light) or darkens the desktop without sleeping the PC (Night), with wakeable screensaver faces; Off returns ordinary Windows. 
+ 
+ Single instance, MIT, public source. No telemetry, no account, no cloud, no keystroke recording, no clipboard access, no fake input. SHA-256-verified releases on GitHub. Two launches: installer (current-user scope) and portable (no admin needed). Winget path is in motion.
  
 
 One program. Entirely local. No accounts. No telemetry. No theater (except the screensavers).
