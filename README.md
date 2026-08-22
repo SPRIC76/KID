@@ -29,7 +29,12 @@ A low-profile bar sits just above the taskbar — there when you want it, gone w
 
 **Ctrl+Shift+D** Light · **Ctrl+Shift+K** Night · hold either for Off · triple-tap to flip. **Esc** or **Space** leaves Night.
 
-Optional **Ghost** — transparent, click-through. Optional **Hold Night** — stay dark until you say otherwise. Optional **Auto after idle** — from Off or Light, enter Light or Night after 1–30 quiet minutes. Optional run at sign-in. Remembers how you left it.
+Optional **Ghost** — transparent, click-through. 
+Optional **Hold Night** — stay dark until you say otherwise. 
+Optional **Auto after idle** — from Off or Light, enter Light or Night after 1–30 quiet minutes. 
+Optional run at sign-in. 
+
+Remembers how you left it.
 
 Night faces: **Globules**, DVD, Snake, Orbit — or quiet Off. Burn-safe motion. Built to feel alive, not busy.
 
